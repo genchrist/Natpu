@@ -5,7 +5,8 @@
     <description>Social Network</description>
     <author email="anoop.nano@gmail.com" href="https://www.natpu.xyz">Admin</author>
 
-    <preference name="phonegap-version" value="3.3.0" />
+    <preference name="phonegap-version" value="cli-6.4.0" />
+
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
