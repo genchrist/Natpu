@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="xyz.natpu.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.mechanicmanday.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>Natpu</name>
-    <description>Social Network</description>
-    <author email="anoop.nano@gmail.com" href="https://www.natpu.xyz">Admin</author>
+    <name>Mechanic Manday</name>
+    <description>Science, Technology and Lifestyle</description>
+    <author email="anoop.nano@gmail.com" href="http://mechanicmanday.com">Anoop</author>
 
     <preference name="phonegap-version" value="cli-6.4.0" />
 
@@ -34,6 +34,6 @@
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
-    <content src="https://www.natpu.xyz" />
+    <content src="http://mechanicmanday.com/>
     <access origin="*" subdomains="true" />
 </widget>
