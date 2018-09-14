@@ -1,6 +1,10 @@
 {
-  "name": "jyconnect",
-  "app_id": "5624266e",
-  "v3": true,
-  "typescript": true
+  "version": "4.1.2",
+  "telemetry": true,
+  "npmClient": "npm",
+  "tokens.telemetry": "57ada753-9f44-41cd-afc9-96a91f579076",
+  "git.setup": true,
+  "user.id": 1254271,
+  "user.email": "anoop.nano@gmail.com",
+  "tokens.user": "5c200a023388990c8e444d1139a59807"
 }
