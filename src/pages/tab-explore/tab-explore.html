@@ -1,0 +1,63 @@
+<ion-header>
+
+  <ion-navbar color="secondary">
+    <ion-title>Explore</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only small (click)="doPageSearch()">
+          <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+  <ion-item-group no-lines>
+    <ion-item-divider>FEATURED</ion-item-divider>
+    <ion-item (click)="doJoinGame()">
+      <ion-avatar item-left>
+        <img src="assets/img/bearfeet.png" />
+      </ion-avatar>
+      Tap here to join Last Bear Standing!
+    </ion-item>
+    <ion-item (click)="doShopping()">
+      <ion-avatar item-left>
+        <img src="assets/img/shopping-128.png" />
+      </ion-avatar>
+      Start shopping on All New Berkshire Store
+    </ion-item>
+    <ion-item (click)="pressGameAdmin()" *ngIf="currentUser && currentUser.admin == true">
+      <ion-avatar item-left>
+        <img src="assets/img/admin-128.png" />
+      </ion-avatar>
+      Management Game
+    </ion-item>
+  </ion-item-group>
+  <ion-item-group>
+    <ion-item-divider>FOLLOW US</ion-item-divider>
+    <button ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/snapchat-128.jpg" />
+      </ion-avatar>
+      SnapChat
+    </button>
+    <button ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/instagram-128.png" />
+      </ion-avatar>
+      Instagram
+    </button>
+    <button ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/facebook-128.png" />
+      </ion-avatar>
+      Facebook
+    </button>
+    <button ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/website-128.png" />
+      </ion-avatar>
+      Website
+    </button>
+  </ion-item-group>
+</ion-content>

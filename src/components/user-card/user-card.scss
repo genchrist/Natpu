@@ -1,0 +1,8 @@
+user-card {
+    ion-avatar img {
+        $avatar-size: 3.2rem;
+        max-width: $avatar-size;
+        max-height: $avatar-size;
+        border-radius: .6rem !important;
+    }
+}

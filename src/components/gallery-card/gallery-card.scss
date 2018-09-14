@@ -1,0 +1,70 @@
+gallery-card {
+    ion-card {
+        margin: 12px 0px !important;
+        width: 100% !important;
+        // font-family: "Lato" !important;
+    }
+    h2 {
+        font-size: 2.0rem !important;
+    }
+    ion-avatar img {
+        $avatar-size: 3.2rem;
+        max-width: $avatar-size;
+        max-height: $avatar-size;
+        border-radius: .6rem !important;
+    }
+
+    ion-card-content {
+        padding-bottom: 0 !important;
+        // font-family: "Lato";
+    }
+
+    ion-col.reply {
+        text-align: center !important;
+    }
+
+    .vote-bar {
+        position: absolute;
+        right: 0.8rem;
+        width: 4.8rem;
+        margin-top: -4.6rem;
+        text-align: center !important;
+        h1 {
+            // text-align: center;
+            // margin-left: -1.6rem;
+            font-weight: 600;
+            font-size: 2.4rem;
+        }
+    }
+
+    .gallery-preview img {
+        object-fit: cover;
+        border-radius: 10px;
+        text-align: center;
+        width : 70%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .comment-bar {
+        padding: 0 16px;
+        border-bottom: solid 0.55px #ccc;
+
+        button {
+            // text-transform: uppercase;
+        }
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .text-middle {
+        padding-top: 13px;
+        vertical-align: middle;
+    }
+} 

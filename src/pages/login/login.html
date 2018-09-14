@@ -1,0 +1,28 @@
+<ion-content padding no-bounce>
+  <!--<div ion-fixed class="fullscreen">-->
+    <ion-icon name="arrow-back" color="light" (click)="doBack()"></ion-icon>
+
+    <form [formGroup]="form">
+        <ion-list no-lines>
+            <h1 ion-text class="title text-center" color="light">BeersFeed</h1>
+            <p class="subtitle text-center">News within Your Community</p>
+            <ion-item>                
+                <ion-icon name="mail" item-left></ion-icon>
+                <ion-input formControlName="email" type="email" placeholder="Email Address"> </ion-input>                
+            </ion-item>
+
+            <ion-item>
+                <ion-icon name="lock" item-left></ion-icon>
+                <ion-input formControlName="password" type="password" placeholder="Password"></ion-input>
+            </ion-item>
+            
+            <button ion-button color="light" (click)="doLogin(form)" block outline>LOGIN</button>
+            <p ion-text color="light" class="text-center">
+                Don't have an account?
+                <a ion-text color="light" (click)="doPageSignup()">Signup.</a>
+            </p>
+            <button ion-button color="light" (click)="doForgotPassword()" clear block>Forgot Password?</button>
+        </ion-list>
+    </form>
+  <!--</div>-->
+</ion-content>
